@@ -1,0 +1,125 @@
+
+		*{margin: 0; padding: 0; box-sizing: border-box; background-color: transparent; font-family: 'Fira Sans', sans-serif;}
+		body{padding: 0 20%; background-color: #6B6B6B; }
+		wrap-content{display: block;width: 100%; height: auto; background-image: url(background.PNG);}
+		header{width: 100%; height: 100px; }
+		.logo{width: 50%; height: 100%; float: left; padding: 40px;}
+		.secretly{width: 50%; height: 100%; float: right;}
+		.secretly div{opacity: 0.7; float: right;border: 2px solid #513400; transform: rotate(-5deg); width: 180px; height: auto;  text-align: center;margin: 10px; padding: 5px;}h5{font-size: 2em;}
+		p{font-size: 0.6em!important;}
+		.work{width: 100%; height: 80px; text-align: center;}.work span{font-size: 70px; color: #573A0F;}
+		.bio-info{height: 150px; width: 100%; margin: 10px 0px;}
+		.bio-info label{ float: left; width: 100%; display: block; overflow: hidden; height: 30px;}
+		.bio-info input{min-width: 60%;}
+		.content{float: left; color:#321A00; font-size: 1em; position: relative; top: 10px; margin-right: 10px;}
+		.content::after{content: " "; position: absolute; height:1.5px; background-color:#1F1F1F; bottom: 0; width:700px;margin-left: 5px;}
+		.text{ 
+			
+			background-color: transparent;
+			border: none;  
+		
+			display: block;
+			font: 400 16px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+			height: 30px;    
+		   
+			margin: 0 10px;
+			outline: none;    
+			padding: 0;z-index: 0;}
+		
+		
+		main{padding: 0 100px;}
+		
+		
+		.abilities{width: 100%; height: 250px; padding-left: 15px;}
+		.row_1, .row_2, .row_3{height: auto; width: calc(100% / 3); float: left;}
+		.row_1 label, .row_2 label, .row_3 label{clear: both; display: block; font-weight: 500; font-size: 0.9em; position: relative; margin: 8px;}
+	input[type="checkbox"] { -webkit-appearance: none;}
+		
+		
+		.chekmark{border: 1px solid black; border-radius: 2px; width: 12px; height: 12px; left: -14px; top: 2px; position: absolute;}
+		
+/* Create the checkmark/indicator (hidden when not checked) */
+.chekmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+input[type="checkbox"]:checked ~ .chekmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+ .chekmark::after {
+  left: 3px;
+  top: -8px;
+  width: 5px;
+  height: 15px;
+  border: solid #66AFFB;
+  border-width: 0 2px 2.5px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+		.knowlage-level_js{width: 100%; height: 100px;  }
+		
+		input[type="range"] {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 3px;
+  border-radius: 5px;
+  background:#1F1F1F;
+  outline: none;
+  
+  
+  
+			position: relative;
+}
+
+input[type="range"]:hover {
+  opacity: 1;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 10px;
+  height: 10px;
+  border: solid black;
+  border-width: 0 10px 10px 0 ;
+  cursor: pointer;
+	margin-top: -15px;
+	 -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+input[type="range"]::-moz-range-thumb {
+ -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border: solid black;
+  border-width: 0 15px 15px 0 ;
+  cursor: pointer;
+	top: -25px;
+
+	 -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.range{font-size: 0.7em; float: left;  padding-top: 10px; font-weight: 500;}
+.none{width: 15%; position: relative;}.middele{width: 30%;}.profi{width: 25%; text-align: right;position: relative;}
+		.none::before{content: " "; width: 2px; height: 10px; background: #1F1F1F; position: absolute; top: 0; left: 0;}
+		.profi::before{content: " "; width: 2px; height: 10px; background: #1F1F1F; position: absolute; top: 0; right: 0;}
+		
+		textarea{border: none; font-style: oblique;}textarea:focus{border: none;}
+		textarea
+{
+  line-height: 5ch;
+  background-image: linear-gradient(transparent, transparent calc(5ch - 1px), black 0px);
+  background-size: 100% 5ch;
+}
+		.future-plans label{ font-weight: 500;}
+		footer{display: block; width: 100%; height: 50px; padding: 50px 100px;}footer h4::after{content: " "; width: 100px; height: 1px; background: black; position: absolute; left: 140px; bottom: 0;}

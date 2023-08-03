@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<meta charset="utf-8">
+<title>open web</title>
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,500,700,800&display=swap" rel="stylesheet">
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<wrap-content>
+	  <header><div class="logo"><div style="width: 100px; height: auto; text-align: center;"><h3>ONE WEB</h3><p>Creative Studio</p></div></div><div class="secretly"><div><h5>СЕКРЕТНО</h5><p>заполнено собственно ручно</p></div></div></header>
+		
+		<main>
+			<div class="work"><span><b>ДЕЛО</b></span></div>
+			<div class="bio-info">
+				<form action="/" method="get">
+					<label><div class="content"><b>Полное ФИО </b></div><input type="text" class="text" placeholder="Иванов иван" id="fio" value="Илхомов Бехруз"></label>
+					<label><div class="content"><b>Год раждение </b></div><input type="text" class="text" value="10.11.2002"></label>
+					<label><div class="content"><b>Место жителства </b></div><input type="text" class="text" value="г.Ташкент, алмазарский район, кора-камиш 2/1"></label>
+					<label><div class="content" style="font-size: 0.9em;"><b>Телефон/Телеграм </b></div><input type="text" value="99894-601-92-50" class="text"></label>
+					<label><div class="content"><b>Почта </b></div><input type="email" class="text" value="ibehruz.2002@gmail.com"></label>
+				</form>
+			</div>
+			<div class="abilities"><br>
+				<h4>Расскажите о себе чекбоксами</h4>
+				<p>Отметьте чекбоксами пункты, которые соответствуют вашим скиллам</p><br>
+				<div class="row_1">
+				<label><input type="checkbox" id="bem"> <span class="chekmark"></span>БЭМ/OOCSS</label>
+				<label><input type="checkbox" id="pug"> <span class="chekmark"></span>Pug (Jade)</label>
+				<label><input type="checkbox" id="less/sass"><span class="chekmark"></span>Stylus/LESS/SASS</label>
+				<label><input type="checkbox" id="svg" checked><span class="chekmark"></span>Работаю с SVG</label>
+				<label><input type="checkbox" id="front" checked><span class="chekmark"></span>Верстаю семантично</label>
+				<label><input type="checkbox" id="a11y"><span class="chekmark"></span>Accessibility (A11Y)</label>
+				<label><input type="checkbox" id="es2016"><span class="chekmark"></span>ES2015/ES2016</label>
+					</div>
+				<div class="row_2">
+				<label><input type="checkbox" id=""><span class="chekmark"></span>Gulp/GRUNT</label>
+				<label><input type="checkbox" id=""><span class="chekmark"></span>Webpack</label>
+				<label><input type="checkbox" id=""><span class="chekmark"></span>Дружу с WebGL</label>
+				<label><input type="checkbox" id="" checked><span class="chekmark"></span>jQuery</label>
+				<label><input type="checkbox" id=""><span class="chekmark"></span>Знаю/изучаю Angular</label>
+				<label><input type="checkbox" id="" checked><span class="chekmark"></span>Знаю/изучаю React</label>
+				<label><input type="checkbox" id="" checked><span class="chekmark"></span>Знаю/изучаю Node.js</label>
+					</div>
+				<div class="row_3">
+				<label><input type="checkbox" id="" checked><span class="chekmark"></span>Я знаю Wordpress</label>
+				<label><input type="checkbox" id=""><span class="chekmark"></span>Я знаю Yii2</label>
+				<label><input type="checkbox" id=""><span class="chekmark"></span>Верстаю Pixel perfect</label>
+				<label><input type="checkbox" id=""><span class="chekmark"></span>Всегда в сети онлайн</label>
+				<label><input type="checkbox" id="" checked><span class="chekmark"></span>Я пунктуалкен</label>
+				<label><input type="checkbox" id=""><span class="chekmark"></span>Я ленивый(-ая)</label>
+					</div>
+			</div>
+			<div class="knowlage-level_js">
+				<br><h4>Уровень владения JavaScript</h4><br>
+				<input type="range"  step="2" min="0" max="8" value="6" class="slider">
+				<div class="range none">Не владею</div>
+				<div class="range middele">Использую готовые решения</div>
+				<div class="range middele">Использую готовые решения и умею их переделывать</div>
+				<div class="range profi">Пишу сложный JS с нуля</div>
+			</div><br>
+			<div class="about"><h4>Расскажите о себе словами</h4><p>Напишите пару предложений, чем вас привлекла наша вакансия и чего вы ожидаете от работы в Creativemade.ru Кстати, будет здорово, если при нехватке места для текста строки будут добавляться автоматически.</p><textarea name="" id="" cols="80" rows="5">Мне нравится программирование но ленивый, плохо пишу на русском, очень стремительный, если пообещал, то делаю, чего бы мне это не стоило, смотрю аниме, нигде не работал, знаю основу даже суть программирование. </textarea></div><br>
+			<div class="future-plans"><h4>Какие у вас планы на будущее?</h4><p>Этот ответ ни на что не повлияет. Не беда, если в будущем ваши </p>
+			<label><input type="radio" name="radio" checked>Верстать </label>
+			<label><input type="radio" name="radio">Прокачиваться в JS</label>
+			<label><input type="radio" name="radio">Менеджерство</label>
+			<label><input type="radio" name="radio">Другое</label></div>
+		</main>
+		<footer><h4 style="position: relative;">Дата заполнения: &nbsp;&nbsp;&nbsp;27.12.2019</h4></footer>
+	</wrap-content>
+	
+<script>
+
+	 jQuery('textarea').keyup(function(){
+
+        //figure out how many chars
+        var length = jQuery(this).val().length;
+
+        //if more than 10
+        if(length > 50){
+
+            //if the modulus 10 of the length is zero, there are a multiple of 10 chars, so we need to extend by a row
+            //(NOTE the obvious problem - this will expand while deleting chars too!)
+            if((length % 65) == 0){
+
+                //figure out the number of rows, increment by one, and reset rows attrib
+                var rows = jQuery(this).attr('rows');
+                rows++;
+
+                jQuery(this).attr('rows', rows);    
+            }  
+        }   
+    });    
+	</script>
+</body>
+</html>
